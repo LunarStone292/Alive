@@ -63,7 +63,7 @@ elif(scelta == 2):
             print(" Host is alive")
         elif(r.status_code == 403):
             print(" Connection refused!")
-        time.sleep(2)
+        time.sleep(.5)
     except:
         print(" Server seems down!!!")
 elif(scelta == 3):
